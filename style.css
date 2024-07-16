@@ -1,0 +1,141 @@
+
+
+html {
+    width: 100%;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* overflow-: hidden; */
+    
+}
+
+html , body {
+    overflow-x: hidden ;
+}
+
+.container-fluid{
+    height: 10vh;
+}
+
+.navbar-brand {
+    padding-top: 0 !important;
+}
+
+.star-logo{
+    width: 70%;
+}
+
+.nav-link, .nav-link{
+    font-size: 1rem; 
+}
+
+.btn{
+    padding: 15px 15px;
+    font-size: .8rem;
+}
+
+.nav-drop-down{
+    background-color: #fff;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+.text-content{
+    width: 60%;
+    height: fit-content;
+    padding: 20px 0px;
+}
+
+.heading{
+    font-size: 1.5em;
+}
+
+.para{
+    font-size: 1em;
+}
+
+.custom-button-1,
+.custom-button-2,
+.custom-button-3
+{
+    padding: 11px;
+}
+
+.custom-button-1{
+    border-color: #1e3932;
+    color: #1e3932;
+}
+.custom-button-2{
+    border-color: #fff;
+    color: white
+}
+.custom-button-3{
+    border-color: black;
+    color: black;
+}
+
+
+
+footer div ul{
+    padding-left: 0;
+}
+.custom-ul li{
+    margin-bottom: 20px;
+} 
+footer div ul li{
+    list-style: none;
+    margin-bottom: 29px;
+    color: rgb(74, 74, 74);
+    font-size: 0.9em;
+}
+footer div h4{
+    margin-bottom: 29px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    
+    .custom-row-2{
+        flex-direction: column-reverse;
+    }
+    .custom-row-4{
+        flex-direction: column-reverse;
+    }
+
+} 
+
+
+/* --------------------footer-------------------------*/
+
+.hr {
+    width: 100%;
+    padding: 10px 0;
+    background-color: white;
+}
+
+.hr hr{
+    border: none;
+    background-color: rgb(198, 198, 198);
+    width: 92%;
+    height: 2px;
+}
+
+.icon svg{
+    margin-right: 2%;
+}
+
+.list li a{
+    text-decoration: none;
+    color: rgb(35, 35, 35);
+    font-weight: bold;
+    font-size: medium;
+}
